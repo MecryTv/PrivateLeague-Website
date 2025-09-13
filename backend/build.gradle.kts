@@ -18,14 +18,13 @@ dependencies {
     // Spring Boot starters
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
-    implementation("org.springframework.boot:spring-boot-starter-data-jpa") // Hinzugefügt für JPA
 
     // Kotlin extras
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
 
     // Database
-    runtimeOnly("com.mysql:mysql-connector-j") // Hinzugefügt für MySQL
+    implementation("org.mongodb:mongodb-driver-core:4.11.0")
 
     // Test
     testImplementation("org.springframework.boot:spring-boot-starter-test")
