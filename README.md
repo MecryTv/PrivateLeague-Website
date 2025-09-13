@@ -5,43 +5,38 @@ Eine moderne Webanwendung zur Verwaltung von privaten Ligen und Turnieren.
 ## 🚀 Tech Stack
 
 ### Frontend
+- **Vite** - Schneller Build-Tool und Dev-Server
 - **React** - UI Library
 - **TypeScript** - Typisierte JavaScript Entwicklung
 - **Tailwind CSS** - Utility-First CSS Framework
-- **Framer Motion** - Animationen und Übergänge
 
 ### Backend
-- **Node.js** - JavaScript Runtime
-- **Express.js** - Web Framework
-- **PostgreSQL** - Relationale Datenbank
+- **Kotlin** - Moderne JVM-Sprache
+- **Spring Boot** - Enterprise Java Framework
+- **MongoDB** - NoSQL Dokumentendatenbank
 - **JWT** - Authentifizierung
-
-### DevOps & Tools
-- **Docker** - Containerisierung
-- **GitHub Actions** - CI/CD
-- **Vercel** - Deployment
-- **ESLint & Prettier** - Code Quality
-
 ---
 
 ## 🛠️ Built With
 
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ---
 
 ## ⚡ Technology Stack
 
 ```
-Frontend:    React + TypeScript + Tailwind CSS
-Backend:     Node.js + Express + PostgreSQL  
-Auth:        JWT + bcrypt
-Deployment:  Docker + Vercel
-Testing:     Jest + React Testing Library
+Frontend:    Vite + React + TypeScript + Tailwind CSS
+Backend:     Kotlin + Spring Boot + MongoDB  
+Auth:        JWT + Spring Security
+Deployment:  Docker + Cloud Platform
+Testing:     JUnit + React Testing Library
 ```
 
 ---
@@ -50,10 +45,10 @@ Testing:     Jest + React Testing Library
 
 | Layer | Technology | Purpose |
 |-------|------------|---------|
-| **Frontend** | React + TS | User Interface & Client Logic |
-| **API** | Express.js | RESTful API Endpoints |
-| **Database** | PostgreSQL | Data Persistence |
-| **Authentication** | JWT | User Sessions & Security |
+| **Frontend** | Vite + React + TS | Fast Development & User Interface |
+| **API** | Spring Boot | RESTful API & Business Logic |
+| **Database** | MongoDB | NoSQL Document Storage |
+| **Authentication** | JWT + Spring Security | User Sessions & Security |
 | **Styling** | Tailwind CSS | Responsive Design System |
 
 ---
@@ -63,10 +58,10 @@ Testing:     Jest + React Testing Library
 <details>
 <summary><strong>Frontend Dependencies</strong></summary>
 
+- `vite` - Build Tool und Dev Server
 - `react` - UI Library
 - `typescript` - Static Type Checking
 - `tailwindcss` - CSS Framework
-- `framer-motion` - Animation Library
 - `react-router-dom` - Client-side Routing
 - `axios` - HTTP Client
 
@@ -75,12 +70,12 @@ Testing:     Jest + React Testing Library
 <details>
 <summary><strong>Backend Dependencies</strong></summary>
 
-- `express` - Web Framework
-- `postgresql` - Database Driver
+- `spring-boot-starter-web` - Web Framework
+- `spring-boot-starter-data-mongodb` - MongoDB Integration
+- `spring-boot-starter-security` - Security Framework
+- `kotlin-stdlib` - Kotlin Standard Library
+- `jackson-module-kotlin` - JSON Serialization
 - `jsonwebtoken` - JWT Implementation
-- `bcrypt` - Password Hashing
-- `cors` - Cross-Origin Resource Sharing
-- `helmet` - Security Middleware
 
 </details>
 
