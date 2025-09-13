@@ -43,3 +43,4 @@ bin/
 
 ### Custom Exclusions ###
 src/main/resources/application.properties
+gradle
