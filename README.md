@@ -35,8 +35,7 @@ Eine moderne Webanwendung zur Verwaltung von privaten Ligen und Turnieren.
 Frontend:    Vite + React + TypeScript + Tailwind CSS
 Backend:     Kotlin + Spring Boot + MongoDB  
 Auth:        JWT + Spring Security
-Deployment:  Docker + Cloud Platform
-Testing:     JUnit + React Testing Library
+Testing:     React Testing Library
 ```
 
 ---
