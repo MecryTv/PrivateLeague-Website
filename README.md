@@ -88,10 +88,12 @@ Testing:     Jest + React Testing Library
 
 ## 🎯 Tech Highlights
 
-> **Modern Stack** - Verwendung aktueller und bewährter Technologien
+> **Blitzschnelle Entwicklung** - Vite sorgt für ultraschnelle Hot-Reload Zeiten
 > 
 > **Type Safety** - Vollständige TypeScript Integration für bessere Entwicklererfahrung
 > 
-> **Responsive Design** - Mobile-first Ansatz mit Tailwind CSS
+> **Modern Backend** - Kotlin + Spring Boot für robuste und skalierbare APIs
 > 
-> **Secure** - JWT-basierte Authentifizierung mit bcrypt Hashing
+> **NoSQL Flexibilität** - MongoDB für flexible Datenspeicherung und -abfrage
+> 
+> **Responsive Design** - Mobile-first Ansatz mit Tailwind CSS
