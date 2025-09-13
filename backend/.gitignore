@@ -40,3 +40,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Custom Exclusions ###
+src/main/resources/application.properties
